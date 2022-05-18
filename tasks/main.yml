@@ -1,2 +1,4 @@
 ---
 # tasks file for helloworld
+- debug:
+    msg: hi my friends
