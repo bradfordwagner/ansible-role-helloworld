@@ -46,11 +46,10 @@ spec:
           name: flavor-ansible-role-template
           template: main
         withItems:
-        - { platform: alpine_3.13     , runtime_platforms: [linux/arm64] }
-#       - { platform: alpine_3.13     , runtime_platforms: [linux/amd64, linux/arm64] }
-#       - { platform: alpine_3.14     , runtime_platforms: [linux/amd64, linux/arm64] }
-#       - { platform: ubuntu_bionic   , runtime_platforms: [linux/amd64, linux/arm64] }
-#       - { platform: ubuntu_focal    , runtime_platforms: [linux/amd64, linux/arm64] }
-#       - { platform: debian_buster   , runtime_platforms: [linux/amd64, linux/arm64] }
-#       - { platform: debian_bullseye , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: alpine_3.13     , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: alpine_3.14     , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: ubuntu_bionic   , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: ubuntu_focal    , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: debian_buster   , runtime_platforms: [linux/amd64, linux/arm64] }
+        - { platform: debian_bullseye , runtime_platforms: [linux/amd64, linux/arm64] }
 
