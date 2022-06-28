@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
-  generateName: go-builder-image-
+  generateName: ansible-role-hello-world-
 spec:
   podGC:
     strategy: OnPodSuccess # delete pods when workflow is successful
